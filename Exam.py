@@ -20,3 +20,9 @@ favorite_number = input('What is your favorite number?:')
 print('\n''Favorite Sport:', sport)
 print('\n''Favorite Number:', favorite_number)
 
+#Adding A question for your favorite color
+for i in range(1):
+    Color = input('What is your favorite color?:')
+    print('\n''Favorite Color:', Color)
+
+

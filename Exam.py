@@ -34,3 +34,19 @@ for i in range(1):
     Color = input('What is your favorite color?:')
     print('\n''Favorite Color:', Color)
 
+#Added a question for guessing a number one through ten
+my_number = 1
+
+print ("Guess my number of one through ten")
+print ("")
+
+guess = int(input("Enter a guess: "))
+
+
+while guess != my_number:
+    print ("")
+    print ("No")
+    guess = int(input("Enter a guess: "))
+
+print ("")
+print ("Good job you win!")

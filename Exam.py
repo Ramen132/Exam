@@ -5,7 +5,19 @@
 '''
 This is a small survey that asks for you name, age, favorite sport, favorite color, and last guess a number one through ten.
 '''
-#Adding A question for your favorite color
-for i in range(1):
-    Color = input('What is your favorite color?:')
-    print('\n''Favorite Color:', Color)
+#Added a question for guessing a number one through ten
+my_number = 1
+
+print ("Guess my number of one through ten")
+print ("")
+
+guess = int(input("Enter a guess: "))
+
+
+while guess != my_number:
+    print ("")
+    print ("No")
+    guess = int(input("Enter a guess: "))
+
+print ("")
+print ("Good job you win!")

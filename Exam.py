@@ -50,3 +50,11 @@ while guess != my_number:
 
 print ("")
 print ("Good job you win!")
+
+#Added a small parameter for the you win the guess my number
+
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
+print_multiple_times('You Win!!!!',7)
+

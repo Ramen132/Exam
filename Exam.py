@@ -1,3 +1,6 @@
+'''
+This is a small survey that asks for you name, age, favorite sport, favorite color, and last guess a number one through ten.
+'''
 #Adding a small greeting function for your name and age
 
 name = input('What is your name?:')
